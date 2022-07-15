@@ -1,0 +1,12 @@
+body{
+	margin: 0;
+}
+header{
+	
+	text-align: center;
+}
+header img{
+	border-radius: 150px;
+
+    border: 10px solid #a80f1e;
+}
