@@ -1,2 +1,2 @@
 # Ghibli-film
- Secod website madee by me
+ Second website made by me
