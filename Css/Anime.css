@@ -8,6 +8,63 @@ header{
 }
 header img{
 	border-radius: 150px;
-	
     border: 10px solid #ff4d4d;
 }
+div1 img{
+	float: right;
+}
+div1 h4{
+	clear:right ;
+}
+section1 img{
+	float: left;
+}
+section1 h4{
+	clear: left;
+}
+main h4{
+	clear: right;
+}
+div2 section2 h4{
+	clear: right;
+}
+.audio-player{
+	float: right;
+	
+}
+.audio-player{
+	width: 15rem;
+	height: 15rem;
+}
+.icon-container{
+	width: 100%;
+	height: 100%;
+	background-color: #efc5c5f8;
+	color: #fff;
+  	display: flex;
+  	justify-content: center;
+  	align-items: center;
+}
+.audio-icon {
+	width: 90%;
+	height: 90%;
+}
+.audio-player {
+	--player-button-width: 3em;
+	  
+  }
+.controls {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	width: 100%;
+	margin-top: 10px;
+}
+.player-button {
+	background-color: transparent;
+	border: 0;
+	width: var(--player-button-width);
+	height: var(--player-button-width);
+	cursor: pointer;
+	padding: 0;
+  }
