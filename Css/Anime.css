@@ -1,6 +1,10 @@
 body{
 	margin: 0;
 }
+body main{
+	background-color: ivory;
+}
+
 header{
 	background-color: #3939bf;
 	text-align: center;
@@ -10,6 +14,7 @@ header img{
 	border-radius: 150px;
     border: 10px solid #ff4d4d;
 }
+
 div1 img{
 	float: right;
 }
@@ -18,9 +23,22 @@ div1 h4{
 }
 section1 img{
 	float: left;
+	width: 155px;
+	margin-top: 75px;
+	margin-left: 15px;
+	position: absolute;
 }
 section1 h4{
 	clear: left;
+}
+section1 ul{
+	border-style: groove;
+	border-width: 17px;
+    padding-bottom: 26px;
+    padding-top: 1px;
+}
+section1 ul li{
+	margin-left: 150px;
 }
 main h4{
 	clear: right;
@@ -35,6 +53,9 @@ div2 section2 h4{
 .audio-player{
 	width: 15rem;
 	height: 15rem;
+	margin-bottom: 45px;
+	margin-top: -160px;
+	margin-right: 70px;
 }
 .icon-container{
 	width: 100%;
@@ -126,3 +147,9 @@ margin-right: var(--space);
 	padding: 0;
 	color:#d3d3f6 ;
   }
+ body main{
+	padding: 16;
+	border: 1;
+	margin-top: 0px;
+	margin-left:  160px;
+ }
